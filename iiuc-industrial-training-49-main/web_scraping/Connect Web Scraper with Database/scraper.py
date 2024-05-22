@@ -8,7 +8,7 @@ import datetime
 from requests_html import HTMLSession
 from mysql.connector import Error
 from db_connection import create_db_connection
-from insert_news import (
+from insert_news_modified import (
     execute_query,
     insert_reporter,
     get_reporter_id,
